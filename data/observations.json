@@ -1,0 +1,1142 @@
+{
+  "assets": [
+    {
+      "id": "A1",
+      "technology": "风电",
+      "capacity_mw": 30,
+      "share": 1,
+      "commissioned": "2026-01-01"
+    },
+    {
+      "id": "A2",
+      "technology": "光伏",
+      "capacity_mw": 20,
+      "share": 0.6,
+      "commissioned": "2026-09-15"
+    },
+    {
+      "id": "A3",
+      "technology": "燃机",
+      "capacity_mw": 40,
+      "share": 1,
+      "commissioned": "2025-01-01"
+    }
+  ],
+  "capacity_changes": [
+    {
+      "id": "C1",
+      "asset_id": "A2",
+      "from": "2026-09-15",
+      "capacity_mw": 10,
+      "status": "试运行"
+    },
+    {
+      "id": "C2",
+      "asset_id": "A2",
+      "from": "2026-10-01",
+      "capacity_mw": 20,
+      "status": "正式投运"
+    }
+  ],
+  "energy": [
+    {
+      "id": "EA1-1",
+      "asset_id": "A1",
+      "date": "2026-10-01",
+      "generated_mwh": 185,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-2",
+      "asset_id": "A1",
+      "date": "2026-10-02",
+      "generated_mwh": 190,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-3",
+      "asset_id": "A1",
+      "date": "2026-10-03",
+      "generated_mwh": 195,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-4",
+      "asset_id": "A1",
+      "date": "2026-10-04",
+      "generated_mwh": 180,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-5",
+      "asset_id": "A1",
+      "date": "2026-10-05",
+      "generated_mwh": 185,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-6",
+      "asset_id": "A1",
+      "date": "2026-10-06",
+      "generated_mwh": 190,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-7",
+      "asset_id": "A1",
+      "date": "2026-10-07",
+      "generated_mwh": 195,
+      "purchased_mwh": 20,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-8",
+      "asset_id": "A1",
+      "date": "2026-10-08",
+      "generated_mwh": 180,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-9",
+      "asset_id": "A1",
+      "date": "2026-10-09",
+      "generated_mwh": 185,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-10",
+      "asset_id": "A1",
+      "date": "2026-10-10",
+      "generated_mwh": 190,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-11",
+      "asset_id": "A1",
+      "date": "2026-10-11",
+      "generated_mwh": 195,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-12",
+      "asset_id": "A1",
+      "date": "2026-10-12",
+      "generated_mwh": 180,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-13",
+      "asset_id": "A1",
+      "date": "2026-10-13",
+      "generated_mwh": 185,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-14",
+      "asset_id": "A1",
+      "date": "2026-10-14",
+      "generated_mwh": 190,
+      "purchased_mwh": 20,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-15",
+      "asset_id": "A1",
+      "date": "2026-10-15",
+      "generated_mwh": 195,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-16",
+      "asset_id": "A1",
+      "date": "2026-10-16",
+      "generated_mwh": 180,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-17",
+      "asset_id": "A1",
+      "date": "2026-10-17",
+      "generated_mwh": 185,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-18",
+      "asset_id": "A1",
+      "date": "2026-10-18",
+      "generated_mwh": 190,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-19",
+      "asset_id": "A1",
+      "date": "2026-10-19",
+      "generated_mwh": 195,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-20",
+      "asset_id": "A1",
+      "date": "2026-10-20",
+      "generated_mwh": 180,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-21",
+      "asset_id": "A1",
+      "date": "2026-10-21",
+      "generated_mwh": 185,
+      "purchased_mwh": 20,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-22",
+      "asset_id": "A1",
+      "date": "2026-10-22",
+      "generated_mwh": 190,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-23",
+      "asset_id": "A1",
+      "date": "2026-10-23",
+      "generated_mwh": 195,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-24",
+      "asset_id": "A1",
+      "date": "2026-10-24",
+      "generated_mwh": 180,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-25",
+      "asset_id": "A1",
+      "date": "2026-10-25",
+      "generated_mwh": 185,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-26",
+      "asset_id": "A1",
+      "date": "2026-10-26",
+      "generated_mwh": 190,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-27",
+      "asset_id": "A1",
+      "date": "2026-10-27",
+      "generated_mwh": 195,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA1-28",
+      "asset_id": "A1",
+      "date": "2026-10-28",
+      "generated_mwh": 180,
+      "purchased_mwh": 20,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-1",
+      "asset_id": "A2",
+      "date": "2026-10-01",
+      "generated_mwh": 95,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-2",
+      "asset_id": "A2",
+      "date": "2026-10-02",
+      "generated_mwh": 100,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-3",
+      "asset_id": "A2",
+      "date": "2026-10-03",
+      "generated_mwh": 105,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-4",
+      "asset_id": "A2",
+      "date": "2026-10-04",
+      "generated_mwh": 90,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-5",
+      "asset_id": "A2",
+      "date": "2026-10-05",
+      "generated_mwh": 95,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-6",
+      "asset_id": "A2",
+      "date": "2026-10-06",
+      "generated_mwh": 100,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-7",
+      "asset_id": "A2",
+      "date": "2026-10-07",
+      "generated_mwh": 105,
+      "purchased_mwh": 20,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-8",
+      "asset_id": "A2",
+      "date": "2026-10-08",
+      "generated_mwh": 90,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-9",
+      "asset_id": "A2",
+      "date": "2026-10-09",
+      "generated_mwh": 95,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-10",
+      "asset_id": "A2",
+      "date": "2026-10-10",
+      "generated_mwh": 100,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-11",
+      "asset_id": "A2",
+      "date": "2026-10-11",
+      "generated_mwh": 105,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-12",
+      "asset_id": "A2",
+      "date": "2026-10-12",
+      "generated_mwh": 90,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-13",
+      "asset_id": "A2",
+      "date": "2026-10-13",
+      "generated_mwh": 95,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-14",
+      "asset_id": "A2",
+      "date": "2026-10-14",
+      "generated_mwh": 100,
+      "purchased_mwh": 20,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-15",
+      "asset_id": "A2",
+      "date": "2026-10-15",
+      "generated_mwh": 105,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-16",
+      "asset_id": "A2",
+      "date": "2026-10-16",
+      "generated_mwh": 90,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-17",
+      "asset_id": "A2",
+      "date": "2026-10-17",
+      "generated_mwh": 95,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-18",
+      "asset_id": "A2",
+      "date": "2026-10-18",
+      "generated_mwh": 100,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-19",
+      "asset_id": "A2",
+      "date": "2026-10-19",
+      "generated_mwh": 105,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-20",
+      "asset_id": "A2",
+      "date": "2026-10-20",
+      "generated_mwh": 90,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-21",
+      "asset_id": "A2",
+      "date": "2026-10-21",
+      "generated_mwh": 95,
+      "purchased_mwh": 20,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-22",
+      "asset_id": "A2",
+      "date": "2026-10-22",
+      "generated_mwh": 100,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-23",
+      "asset_id": "A2",
+      "date": "2026-10-23",
+      "generated_mwh": 105,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-24",
+      "asset_id": "A2",
+      "date": "2026-10-24",
+      "generated_mwh": 90,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-25",
+      "asset_id": "A2",
+      "date": "2026-10-25",
+      "generated_mwh": 95,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-26",
+      "asset_id": "A2",
+      "date": "2026-10-26",
+      "generated_mwh": 100,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-27",
+      "asset_id": "A2",
+      "date": "2026-10-27",
+      "generated_mwh": 105,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA2-28",
+      "asset_id": "A2",
+      "date": "2026-10-28",
+      "generated_mwh": 90,
+      "purchased_mwh": 20,
+      "storage_charge_mwh": 5,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-1",
+      "asset_id": "A3",
+      "date": "2026-10-01",
+      "generated_mwh": 405,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-2",
+      "asset_id": "A3",
+      "date": "2026-10-02",
+      "generated_mwh": 410,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-3",
+      "asset_id": "A3",
+      "date": "2026-10-03",
+      "generated_mwh": 415,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-4",
+      "asset_id": "A3",
+      "date": "2026-10-04",
+      "generated_mwh": 400,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-5",
+      "asset_id": "A3",
+      "date": "2026-10-05",
+      "generated_mwh": 405,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-6",
+      "asset_id": "A3",
+      "date": "2026-10-06",
+      "generated_mwh": 410,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-7",
+      "asset_id": "A3",
+      "date": "2026-10-07",
+      "generated_mwh": 415,
+      "purchased_mwh": 20,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-8",
+      "asset_id": "A3",
+      "date": "2026-10-08",
+      "generated_mwh": 400,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-9",
+      "asset_id": "A3",
+      "date": "2026-10-09",
+      "generated_mwh": 405,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-10",
+      "asset_id": "A3",
+      "date": "2026-10-10",
+      "generated_mwh": 410,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-11",
+      "asset_id": "A3",
+      "date": "2026-10-11",
+      "generated_mwh": 415,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-12",
+      "asset_id": "A3",
+      "date": "2026-10-12",
+      "generated_mwh": 400,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-13",
+      "asset_id": "A3",
+      "date": "2026-10-13",
+      "generated_mwh": 405,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-14",
+      "asset_id": "A3",
+      "date": "2026-10-14",
+      "generated_mwh": 410,
+      "purchased_mwh": 20,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-15",
+      "asset_id": "A3",
+      "date": "2026-10-15",
+      "generated_mwh": 415,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-16",
+      "asset_id": "A3",
+      "date": "2026-10-16",
+      "generated_mwh": 400,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-17",
+      "asset_id": "A3",
+      "date": "2026-10-17",
+      "generated_mwh": 405,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-18",
+      "asset_id": "A3",
+      "date": "2026-10-18",
+      "generated_mwh": 410,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-19",
+      "asset_id": "A3",
+      "date": "2026-10-19",
+      "generated_mwh": 415,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-20",
+      "asset_id": "A3",
+      "date": "2026-10-20",
+      "generated_mwh": 400,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-21",
+      "asset_id": "A3",
+      "date": "2026-10-21",
+      "generated_mwh": 405,
+      "purchased_mwh": 20,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-22",
+      "asset_id": "A3",
+      "date": "2026-10-22",
+      "generated_mwh": 410,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-23",
+      "asset_id": "A3",
+      "date": "2026-10-23",
+      "generated_mwh": 415,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-24",
+      "asset_id": "A3",
+      "date": "2026-10-24",
+      "generated_mwh": 400,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.8,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-25",
+      "asset_id": "A3",
+      "date": "2026-10-25",
+      "generated_mwh": 405,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.6,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-26",
+      "asset_id": "A3",
+      "date": "2026-10-26",
+      "generated_mwh": 410,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.65,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-27",
+      "asset_id": "A3",
+      "date": "2026-10-27",
+      "generated_mwh": 415,
+      "purchased_mwh": 0,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.7,
+      "known_at": "2026-11-01"
+    },
+    {
+      "id": "EA3-28",
+      "asset_id": "A3",
+      "date": "2026-10-28",
+      "generated_mwh": 400,
+      "purchased_mwh": 20,
+      "storage_charge_mwh": 0,
+      "resource_index": 0.75,
+      "known_at": "2026-11-01"
+    }
+  ],
+  "causes": [
+    {
+      "id": "CA1",
+      "asset_id": "A1",
+      "from": "2026-10-10T08:00:00+08:00",
+      "to": "2026-10-10T14:00:00+08:00",
+      "kind": "受限",
+      "verified": true
+    },
+    {
+      "id": "CA2",
+      "asset_id": "A1",
+      "from": "2026-10-10T10:00:00+08:00",
+      "to": "2026-10-10T16:00:00+08:00",
+      "kind": "故障",
+      "verified": true
+    }
+  ],
+  "accountability": [
+    {
+      "id": "P1",
+      "asset_id": "A1",
+      "from": "2026-01-01",
+      "exclusions": [
+        "受限"
+      ],
+      "requires_verified_evidence": true
+    }
+  ],
+  "windows": [
+    {
+      "id": "W1",
+      "asset_id": "A1",
+      "from": "2026-11-05",
+      "to": "2026-11-07",
+      "crew": "G1",
+      "mandatory": true,
+      "status": "已开工"
+    },
+    {
+      "id": "W2",
+      "asset_id": "A2",
+      "from": "2026-11-05",
+      "to": "2026-11-07",
+      "crew": "G1",
+      "mandatory": true,
+      "status": "候选"
+    },
+    {
+      "id": "W3",
+      "asset_id": "A2",
+      "from": "2026-11-09",
+      "to": "2026-11-11",
+      "crew": "G1",
+      "mandatory": true,
+      "status": "候选"
+    }
+  ],
+  "commitments": [
+    {
+      "id": "K1",
+      "window": "2026-11-05/2026-11-07",
+      "required_mwh": 1000,
+      "assets": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "status": "已确认"
+    }
+  ],
+  "resources": [
+    {
+      "id": "G1",
+      "parallel_jobs": 1
+    }
+  ],
+  "reference_history": [
+    {
+      "id": "H1",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.52,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 5.1,
+      "date": "2025-10-01"
+    },
+    {
+      "id": "H2",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.54,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 5.2,
+      "date": "2025-10-02"
+    },
+    {
+      "id": "H3",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.56,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 5.3,
+      "date": "2025-10-03"
+    },
+    {
+      "id": "H4",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.58,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 5.4,
+      "date": "2025-10-04"
+    },
+    {
+      "id": "H5",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.6,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 5.5,
+      "date": "2025-10-05"
+    },
+    {
+      "id": "H6",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.62,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 5.6,
+      "date": "2025-10-06"
+    },
+    {
+      "id": "H7",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.64,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 5.7,
+      "date": "2025-10-07"
+    },
+    {
+      "id": "H8",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.66,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 5.8,
+      "date": "2025-10-08"
+    },
+    {
+      "id": "H9",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.6799999999999999,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 5.9,
+      "date": "2025-10-09"
+    },
+    {
+      "id": "H10",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.7,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 6.0,
+      "date": "2025-10-10"
+    },
+    {
+      "id": "H11",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.72,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 6.1,
+      "date": "2025-10-11"
+    },
+    {
+      "id": "H12",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.74,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 6.2,
+      "date": "2025-10-12"
+    },
+    {
+      "id": "H13",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.76,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 6.3,
+      "date": "2025-10-13"
+    },
+    {
+      "id": "H14",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.78,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 6.4,
+      "date": "2025-10-14"
+    },
+    {
+      "id": "H15",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.8,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 6.5,
+      "date": "2025-10-15"
+    },
+    {
+      "id": "H16",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.8200000000000001,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 6.6,
+      "date": "2025-10-16"
+    },
+    {
+      "id": "H17",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.8400000000000001,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 6.7,
+      "date": "2025-10-17"
+    },
+    {
+      "id": "H18",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.86,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 6.8,
+      "date": "2025-10-18"
+    },
+    {
+      "id": "H19",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.88,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 6.9,
+      "date": "2025-10-19"
+    },
+    {
+      "id": "H20",
+      "technology": "风电",
+      "stage": "成熟",
+      "resource_index": 0.9,
+      "available_fraction": 0.9,
+      "mwh_per_mw_day": 7.0,
+      "date": "2025-10-20"
+    }
+  ]
+}

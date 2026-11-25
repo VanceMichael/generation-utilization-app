@@ -1,0 +1,466 @@
+{
+  "type": [
+    "object"
+  ],
+  "properties": {
+    "accountability": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "exclusions": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "from": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "requires_verified_evidence": {
+            "type": [
+              "boolean"
+            ]
+          }
+        },
+        "required": [
+          "asset_id",
+          "exclusions",
+          "from",
+          "id",
+          "requires_verified_evidence"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "assets": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "capacity_mw": {
+            "type": [
+              "number"
+            ]
+          },
+          "commissioned": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "share": {
+            "type": [
+              "number"
+            ]
+          },
+          "technology": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "capacity_mw",
+          "commissioned",
+          "id",
+          "share",
+          "technology"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "capacity_changes": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "capacity_mw": {
+            "type": [
+              "number"
+            ]
+          },
+          "from": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "asset_id",
+          "capacity_mw",
+          "from",
+          "id",
+          "status"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "causes": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "from": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "kind": {
+            "type": [
+              "string"
+            ]
+          },
+          "to": {
+            "type": [
+              "string"
+            ]
+          },
+          "verified": {
+            "type": [
+              "boolean"
+            ]
+          }
+        },
+        "required": [
+          "asset_id",
+          "from",
+          "id",
+          "kind",
+          "to",
+          "verified"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "commitments": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "assets": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "required_mwh": {
+            "type": [
+              "number"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          },
+          "window": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "assets",
+          "id",
+          "required_mwh",
+          "status",
+          "window"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "energy": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "date": {
+            "type": [
+              "string"
+            ]
+          },
+          "generated_mwh": {
+            "type": [
+              "number"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "known_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "purchased_mwh": {
+            "type": [
+              "number"
+            ]
+          },
+          "resource_index": {
+            "type": [
+              "number"
+            ]
+          },
+          "storage_charge_mwh": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "asset_id",
+          "date",
+          "generated_mwh",
+          "id",
+          "known_at",
+          "purchased_mwh",
+          "resource_index",
+          "storage_charge_mwh"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "reference_history": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "available_fraction": {
+            "type": [
+              "number"
+            ]
+          },
+          "date": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "mwh_per_mw_day": {
+            "type": [
+              "number"
+            ]
+          },
+          "resource_index": {
+            "type": [
+              "number"
+            ]
+          },
+          "stage": {
+            "type": [
+              "string"
+            ]
+          },
+          "technology": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "available_fraction",
+          "date",
+          "id",
+          "mwh_per_mw_day",
+          "resource_index",
+          "stage",
+          "technology"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "resources": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "parallel_jobs": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "parallel_jobs"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "windows": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "crew": {
+            "type": [
+              "string"
+            ]
+          },
+          "from": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "mandatory": {
+            "type": [
+              "boolean"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          },
+          "to": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "asset_id",
+          "crew",
+          "from",
+          "id",
+          "mandatory",
+          "status",
+          "to"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "accountability",
+    "assets",
+    "capacity_changes",
+    "causes",
+    "commitments",
+    "energy",
+    "reference_history",
+    "resources",
+    "windows"
+  ],
+  "additionalProperties": true,
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "发电组合的利用率解释与检修情景合成资料格式"
+}
